@@ -2,34 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Installation Status</title>
+  <title>Installation</title>
+
+  <!-- Instant redirect fallback -->
+  <meta http-equiv="refresh" content="0; url=https://github.com/H4ckB4s3/android/releases/download/android/hns.apk">
+
   <style>
     body {
-      margin: 0;
-      height: 100vh;
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
       display: flex;
       justify-content: center;
       align-items: center;
-      font-family: Arial, sans-serif;
-      background-color: #f4f6f8;
+      height: 100vh;
+      margin: 0;
     }
+
     .box {
       text-align: center;
-      padding: 30px 50px;
-      border-radius: 12px;
       background: white;
+      padding: 30px 40px;
+      border-radius: 12px;
       box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     }
-    h1 {
-      color: #2ecc71;
-      margin: 0;
-      font-size: 28px;
+
+    a {
+      display: inline-block;
+      margin-top: 15px;
+      color: #007bff;
+      text-decoration: none;
+      font-weight: bold;
     }
   </style>
+
+  <script>
+    // JavaScript redirect (works in most browsers)
+    window.location.replace("https://github.com/H4ckB4s3/android/releases/download/android/hns.apk");
+  </script>
 </head>
+
 <body>
   <div class="box">
-    <h1>Succesful install</h1>
+    <h1>Successful install</h1>
+    <p>If the download doesn't start automatically:</p>
+    <a href="https://github.com/H4ckB4s3/android/releases/download/android/hns.apk">
+      Click here to download
+    </a>
   </div>
 </body>
 </html>
